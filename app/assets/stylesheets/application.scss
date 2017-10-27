@@ -16,6 +16,11 @@
 
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
+ @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+ * {
+  font-family: 'Bree Serif', serif;
+ }
 
  ul {
   padding-left: 0px;
@@ -45,4 +50,20 @@
   margin: 5px 20px;
   padding: 10px;
   float: left;
+}
+
+.single {
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.new_message .btn {
+  margin-top: .5rem;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+.panel {
+  margin-bottom: 0;
 }
